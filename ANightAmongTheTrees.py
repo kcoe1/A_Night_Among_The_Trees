@@ -111,6 +111,11 @@ def startGame():
         hintsSystem.qAndA()
         startGame()
     elif user_input == "credits":
+        pygame.mixer.music.load("costalDrive.mp3")
+        pygame.mixer.music.play(-1)
+        time.sleep(4)
+        print("\nRolling credits...")
+        time.sleep(5)
         cred.credits()
         startGame()
     else:
@@ -3848,6 +3853,8 @@ def keypad():
         if password == "1849562":
             print("\nYou hear a click.")
             time.sleep(3)
+            pygame.mixer.music.load("base2.mp3")
+            pygame.mixer.music.play(-1)
             print("\nYou try the door, and it swings open.")
             time.sleep(3)
             print("\nYou step inside the manager's office.")
@@ -3903,6 +3910,8 @@ def insideManagerOffice():
     elif user_input == "4":
         print("\nYou decide to head back to the main room.")
         time.sleep(3)
+        pygame.mixer.music.load("War Machines Factory  Robot Sci-Fi Ambience  1 Hour.mp3")
+        pygame.mixer.music.play(-1)
         factoryMain()
     else:
         print("\nYou feel a bit uneasy being here.")
