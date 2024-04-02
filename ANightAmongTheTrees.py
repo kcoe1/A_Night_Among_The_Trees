@@ -1959,8 +1959,8 @@ def otherRoomNoHook():
             print("\nYou hunt with the figure for the rest of your days,")
             print("living off slop cooked from the animals you kill.")
             time.sleep(6)
-            print("\nYou never do get a good look at the figure, as the night never seems to end")
-            print("even after countless hours of hunting with them.")
+            print("\nYou never do get a good look at the figure, as you soon become completely")
+            print("infatuated with hunt, not caring about their appearance.")
             time.sleep(6)
             hunterEnding()
         else:
