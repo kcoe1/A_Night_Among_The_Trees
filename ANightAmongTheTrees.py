@@ -75,6 +75,7 @@ def startGame():
         print("\n(For a game walkthrough, type 'helpme' to access the game walkthrough!)")
     if gameOverCounter > 1:
         print("\n(You can also type 'hint' to get a hint for one of the endings!)")
+        print("\n(You can also type 'credits' to view the credits!)")
     if eleChecker != 0:
         print("\nYou will now start the game with electricity turned on!")
     if compassChecker != 0:
@@ -108,6 +109,9 @@ def startGame():
         researchBaseMainRoom()
     elif user_input == "helpme":
         hintsSystem.qAndA()
+        startGame()
+    elif user_input == "credits":
+        cred.credits()
         startGame()
     else:
         print("The trees do not take kindly to that response...")
