@@ -19,4 +19,4 @@ Once pip is installed, type in the following three lines one at a time:
 "pip install inputimeout"
 
 After all three are installed, close the terminal.
-Next, click "RUN ME!" and the game should run!!!
+Next, click "RUN ME" and the game should run!!!
