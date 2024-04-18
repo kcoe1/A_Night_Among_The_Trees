@@ -4108,8 +4108,8 @@ def powerChoice():
                 pygame.mixer.music.load("War Machines Factory  Robot Sci-Fi Ambience  1 Hour.mp3")
                 pygame.mixer.music.play(-1)
                 hiddenInventory.append("electricity")
-                #global eleChecker
-                #eleChecker += 1
+                global eleChecker
+                eleChecker += 1
                 print("The lights immediately turn on, and you can hear machinery humming.")
                 time.sleep(3)
                 powerChoice()
