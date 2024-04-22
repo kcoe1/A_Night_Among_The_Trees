@@ -96,7 +96,7 @@ def credits():
     time.sleep(2)
     print("\t\tBrady Christiansen\n")
     time.sleep(2)
-    print("\t\t\tFaith Cequena\n")
+    print("\t\t\tMason Price\n")
     time.sleep(2)
     print("\t\t\t\tBen Tracta\n")
     time.sleep(2)
