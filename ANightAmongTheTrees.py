@@ -3629,6 +3629,7 @@ def clifftop():
     time.sleep(3)
     print("\nYou view the road streching out in a straight line as far as you can.")
     print("Sure enough, theres the gift shop down the road on the right.")
+    print("You also see a mansion a little further down the road from it.")
     print("And there's the factory a little bit into the woods on the left.")
     print("You even spot a cabin nestled between the trees.")
     time.sleep(9)
