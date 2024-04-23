@@ -1592,7 +1592,7 @@ def slop():
     print("There is a window on the left wall.")
     print("The door leading outside is behind you, and the door leading to the other room is")
     print("right in front of you, behind the table.")
-    print("Additionally, there is some equitment in the corner to your right.")
+    print("Additionally, there is some equipment in the corner to your right.")
     time.sleep(8)
     aloneInTheCabin()
 
@@ -3618,7 +3618,7 @@ def rockslideChoice():
         time.sleep(3)
         print("You can hear strange noises in the dark woods.")
         time.sleep(3)
-        print("You think about the woods. You wonder if you've headed left three times in a row yet.")
+        print("You wonder if you've headed left three times in a row in the woods yet.")
         time.sleep(3)
         print("You soon make it back.")
         time.sleep(3)
