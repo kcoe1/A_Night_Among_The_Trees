@@ -348,7 +348,10 @@ def waitForBus4():
     time.sleep(8)
     print("\nDark purple headlights appear on the horizon.")
     time.sleep(3)
-    print("\nA bus you've never seen before rolls up to the bus stop.")
+    if "Mbus" not in hiddenInventory:
+        print("\nA bus you've never seen before rolls up to the bus stop.")
+    else:
+        print("\nThe Midnight Bus rolls up to the bus stop.")
     print('The design on its side reads "The Midnight Bus".\n')
     time.sleep(3)
     print("     ________________________________         ")
@@ -372,6 +375,7 @@ def waitForBus4():
     print("2. Wait for the REAL bus.")
     user_input = input("I would like to... ")
     if user_input == "1":
+        hiddenInventory.append("Mbus")
         print("\nYou step onboard, and the doors close behind you.")
         time.sleep(3)
         print("As soon as you step onboard you can suddenly see the interior,")
