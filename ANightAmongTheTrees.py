@@ -1129,6 +1129,7 @@ def entryFive():
     print("It doesn't have power.")
     print("Maybe if I ride the midnight bus every night my time in the woods will reset?")
     print("And I won't risk going insane?")
+    print("Will I end up like that old woman living in that mansion?")
     print("I might be royally screwed.")
     i = input("\n\n\nPress enter when you're done reading.")
     notebook()
