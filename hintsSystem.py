@@ -125,7 +125,8 @@ def hints3():
     print("13. What items do I need to beat the monster among the trees?")
     print("14. How can I get the compass?")
     print("15. How can I get the key needed for the trapdoor?")
-    print("16. What is the answer to the time puzzle?")
+    #print("16. What is the answer to the time puzzle?")
+    print("16. [REDACTED]")
     print("17. How can I get the key for the manager's desk?")
     print("18. What is the creator's favorite ending and how do I reach it?")
     print("Enter 'b' to go to the previous page.")
@@ -159,7 +160,7 @@ def hints3():
         print("\nThe key to the trapdoor will be given to you by Ms. Ravenlock.")
         print("Just follow the rules and she will give it to you.")
         x = input("\nPress enter when ready.")
-    elif i == '16':
+    '''elif i == '16':
         print("\nThis is a really fun puzzle, but if you really want to know type 'imaloser'")
         l = input("I would like to... ")
         if l.lower() == "imaloser":
@@ -167,7 +168,7 @@ def hints3():
             x = input("\nPress enter when ready.")
         else:
             print("\nAwesome choice!!!")
-            x = input("\nPress enter when ready.")
+            x = input("\nPress enter when ready.")'''
     elif i == '17':
         print("\nThe dog has the key to the manager's desk.")
         print("Visit the dog with the whistle and the plushie and you can get it.")
