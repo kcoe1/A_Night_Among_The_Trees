@@ -160,15 +160,6 @@ def hints3():
         print("\nThe key to the trapdoor will be given to you by Ms. Ravenlock.")
         print("Just follow the rules and she will give it to you.")
         x = input("\nPress enter when ready.")
-    '''elif i == '16':
-        print("\nThis is a really fun puzzle, but if you really want to know type 'imaloser'")
-        l = input("I would like to... ")
-        if l.lower() == "imaloser":
-            print("\nThe answer is 1849562. Also totally lame as to not solve it on your own.")
-            x = input("\nPress enter when ready.")
-        else:
-            print("\nAwesome choice!!!")
-            x = input("\nPress enter when ready.")'''
     elif i == '17':
         print("\nThe dog has the key to the manager's desk.")
         print("Visit the dog with the whistle and the plushie and you can get it.")
